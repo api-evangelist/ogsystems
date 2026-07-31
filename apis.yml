@@ -1,7 +1,27 @@
 aid: ogsystems
-name: Ogsystems
-description: Ogsystems is a company surfaced as a portfolio company of general-catalyst and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ogsystems.png
+name: OGSystems
+description: OGSystems was a geospatial intelligence, data analytics, and advanced
+  technology company based in Chantilly, Virginia, serving the United States
+  intelligence community and Department of Defense with threat analytics, machine
+  learning, and geospatial exploitation solutions. The company was acquired by
+  Parsons Corporation in 2019 and folded into Parsons' national security and
+  intelligence portfolio. Its former domain (ogsystems.com) now redirects to
+  parsons.com, and it maintains no independent public developer program, API
+  reference, or machine-readable API surface. This profile is retained in the
+  API Evangelist network as an identity/lead record surfaced from VC-portfolio
+  data; there are no API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/ogsystems/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +29,29 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: parsons
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Geospatial
+- Defense
+- Intelligence
+- Analytics
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.parsons.com/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
